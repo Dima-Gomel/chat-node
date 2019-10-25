@@ -17,6 +17,5 @@ wss.on('connection', (ws) => {
                 client.send(message);
             }
         });
-    });  
-    
+    });      
 });
